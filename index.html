@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interno - Modal Dúvidas - Pesquisador</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <span class="logo"><img src="logo-acali.png" alt="ACALI"></span>
+    <nav>
+      <ul>
+        <li><a href="#">sobre</a></li>
+        <li><a href="#">contato</a></li>
+        <li><a href="#">contato</a></li>
+        <li><a href="#">contato</a></li>
+        <li><a href="#">login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-header" aria-label="Título do projeto">
+      Desenvolvimento e Modernização do Frontend para o Sistema
+    </section>
+  </main>
+
+  <section class="overlay" role="dialog" aria-modal="true">
+    <section class="modal" aria-labelledby="modal-title">
+      <button class="close" aria-label="Fechar modal">&#10005;</button>
+      <h1 id="modal-title">SubProjeto 1</h1>
+      <p class="subtitle">Arquivos para Avaliação</p>
+
+      <section class="tasks">
+        <details open>
+          <summary>
+            <span class="task-title">TAREFA 1</span>
+            <time class="task-date" datetime="2025-06-10">Jun 10 - 25</time>
+          </summary>
+          <section class="chat">
+            <article class="message">
+              <header>
+                <strong>Débora Araújo</strong>
+                <time datetime="2025-06-11T11:02">11:02</time>
+              </header>
+              <p>Alguém pode me ajudar a definir uma logo para o projeto?</p>
+            </article>
+            <article class="message">
+              <header>
+                <strong>Maria da Silva</strong>
+                <time datetime="2025-06-11T11:15">11:15</time>
+              </header>
+              <p>Eu tenho disponibilidade...</p>
+            </article>
+            <form class="reply-form">
+              <input type="text" placeholder="responda aqui..." aria-label="Campo de resposta" />
+            </form>
+            <article class="message">
+              <header>
+                <strong>Débora Araújo</strong>
+                <time datetime="2025-06-11T11:20">11:20</time>
+              </header>
+              <p>Preciso de ajuda na minha pesquisa.</p>
+            </article>
+            <form class="reply-form">
+              <input type="text" placeholder="responda aqui..." aria-label="Campo de resposta" />
+            </form>
+          </section>
+        </details>
+
+        <details>
+          <summary>
+            <span class="task-title">TAREFA 2</span>
+            <time class="task-date" datetime="2025-07-20">Jul 20 - 25</time>
+          </summary>
+        </details>
+
+        <details>
+          <summary>
+            <span class="task-title">TAREFA 3</span>
+            <time class="task-date" datetime="2025-08-05">Ago 05 - 25</time>
+          </summary>
+        </details>
+      </section>
+
+      <footer class="dots" aria-hidden="true">
+        <span class="dot small"></span>
+        <span class="dot medium"></span>
+        <span class="dot large"></span>
+      </footer>
+    </section>
+  </section>
+</body>
+</html>
