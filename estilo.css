@@ -320,7 +320,7 @@ h1 {
 }
 
 .new-chat {
-  position: relative;
+  position: static;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -333,7 +333,21 @@ h1 {
   padding: 0;
   position: static;
 }
-
+/*
+.new-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  border: 1px dashed #b2eabf;
+  box-shadow: none; 
+  margin: 0;
+  padding: 0;
+  position: static;
+}
+*/
 .start-chat {
   display: flex;
   align-items: center;
@@ -374,21 +388,7 @@ h1 {
   flex-direction: column;
   gap: 12px;
 }
-/*
-.new-chat {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 70px;
-  background: #f7f7f7;
-  border-radius: 12px;
-  border: 1px dashed #b2eabf;
-  box-shadow: none; 
-  margin: 0;
-  padding: 0;
-  position: static;
-}
-*/
+
 .chats-wrapper {
   display: flex;
   flex-direction: column;
