@@ -319,7 +319,7 @@ h1 {
   background-color: #ff3b30;
 }
 
-.nova-conversa {
+.new-chat {
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -374,8 +374,8 @@ h1 {
   flex-direction: column;
   gap: 12px;
 }
-
-.nova-conversa {
+/*
+.new-chat {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -388,7 +388,7 @@ h1 {
   padding: 0;
   position: static;
 }
-
+*/
 .chats-wrapper {
   display: flex;
   flex-direction: column;
