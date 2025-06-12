@@ -322,7 +322,7 @@ h1 {
 .new-chat {
   position: static;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-star;
   align-items: flex-end;
   min-height: 70px;
   background: #f7f7f7;
@@ -331,7 +331,6 @@ h1 {
   box-shadow: none; 
   margin: 0;
   padding: 0;
-  position: static;
 }
 /*
 .new-chat {
