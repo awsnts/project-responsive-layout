@@ -21,7 +21,7 @@ To view or modify the project locally:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/awsnts/projeto-denis.git
+   git clone https://github.com/awsnts/project-responsive-layout.git
    ```
 2. Open the `index.html` file in your browser.
 
